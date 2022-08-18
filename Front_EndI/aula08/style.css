@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+
+h1 {
+    color: rgb(209, 58, 123)
+}
+
+.image {
+    background-image: url("https://1.bp.blogspot.com/-dtY5kkFzsoY/X6yi9ECWCOI/AAAAAAAALws/0yGawWiFsV0PvcNB4dS7oJmFq40GvZPSACLcBGAsYHQ/s1000/clube%2Bda%2Bluta.png");
+    height: 500px;
+    background-size: 100%;
+  
+
+}
+
+.firstItem{
+    color: #fff;
+}
+
+.secondItem{
+    color:#fff
+}
