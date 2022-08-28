@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+    
+
+header {
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    bottom: 10px;
+    background: #000000;
+    box-shadow: #000000;
+}
+
+
+
+.nav1 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    word-spacing: 13px;
+    margin-right: 28px;
+}
+
+.logo {
+    position: absolute;
+    width: 234px;
+    height: 80px;
+    left: 28px;
+    top: 10px;
+}
+
+.VectorPizza {
+    position: absolute;
+    width: 92px;
+    height: 80px;
+    left: 20px;
+    top: 5px;
+}
+
+.VectorPizza img {
+    max-width: 90px;
+    min-height: 82px;
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+}
+
+.PizzaFront {
+    position: absolute;
+    width: 132px;
+    height: 28px;
+    left: 122px;
+    top: 36px;
+}
+
+.PizzaFront img {
+    position: absolute;
+    width: 150px;
+    height: 28px;
+    width: auto;
+    height: auto;
+}
+
+section {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 19px;
+    margin-top: 160px;
+    margin-bottom: 40px;
+    margin-right: 515px;
+}
+
+.title1 {
+    font-family: 'Roboto';
+    position: absolute;
+    width: 485px;
+    height: 28px;
+    top: 190;
+    text-align: center;
+    color: #FC200C;
+}
+
+.img-pizza {
+    border-radius: 5px;
+    width: 490px;
+    height: 350px;
+    left: 19px;
+    top: 135px;
+}
+
+.menu {
+    position: absolute;
+    width: 491px;
+    height: 350px;
+    left: 514px;
+    top: 160px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.title2 {
+    position: absolute;
+    width: 491px;
+    height: 350px;
+    left: 514px;
+    top: 160px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FC200C;
+    text-align: center;
+    background: white;
+    border-radius: 5px;
+
+}
+
+.firstpizza {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    width: 385px;
+    height: 250px;
+    padding-left: 350px;
+    top: 219px;
+    z-index: 4;
+}
+
+.title3 {
+    position: absolute;
+    width: 146px;
+    height: 178px;
+    left: 550px;
+    top: 260px;
+    text-align: center;
+}
+
+ol {
+    position: absolute;
+    width: 100%;
+    height: 19px;
+    left: 580px;
+    top: 300px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.Pizza-Falling {
+    position: absolute;
+    width: 92px;
+    height: 129px;
+    left: 839px;
+    top: 267px;
+}
+
+footer {
+
+    width: 100%;
+    height: 120px;
+    background: #000000;
+}
+
+.nav3 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #F3F3F3;
+}
+
+.VectorPizza1 {
+    position: absolute;
+    width: 92px;
+    height: 80px;
+    left: 1050px;
+    top: 560px;
+}
+
+.VectorPizza1 img {
+    max-width: 90px;
+    min-height: 82px;
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+}
+
+.PizzaFront1 {
+    position: absolute;
+    height: 23px;
+    width: 110px;
+    left: 1150px;
+    top: 590px;
+    border-radius: nullpx;
+}
+
+.PizzaFront1 img {
+    position: absolute;
+    width: 150px;
+    height: 28px;
+    width: auto;
+    height: auto;
+}
